@@ -6,7 +6,11 @@
 
 - __Product Owner__: David Doan
 - __Scrum Master__: Cathy Lee
+<<<<<<< 55acf5f5c79d5fb2afcc3fbe6f48fc29e2b465e8
 - __Development Team Members__: Ashwini Jogwar, Jen Wong
+=======
+- __Development Team Members__: Ashwin Diwan, Jen Wong
+>>>>>>> Added .gitignore to include folder route
 
 ## Table of Contents
 
@@ -146,7 +150,10 @@ module.exports = {
 ```
 Fill out the clientID, clientSecret, callbackURL in authorizeFacebook.js by going to <a href="https://developers.facebook.com/">Facebook Developer Portal</a> and creating your own app.
 
+<<<<<<< 55acf5f5c79d5fb2afcc3fbe6f48fc29e2b465e8
 
+=======
+>>>>>>> Added .gitignore to include folder route
 ## Roadmap
 
 [![Stories in Ready](https://badge.waffle.io/wonky-mongoose/wonky-mongoose.svg?label=ready&title=Ready)](http://waffle.io/wonky-mongoose/wonky-mongoose)
