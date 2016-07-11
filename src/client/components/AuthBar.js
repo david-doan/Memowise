@@ -11,6 +11,13 @@ const AuthBar = ({ user, mobile }) => {
         <li>
           {
             name ?
+              <Link to="/dashboard">Decks</Link> :
+              null
+          }
+        </li>
+        <li>
+          {
+            name ?
               <Link to="/scoreboard">Scoreboard</Link> :
               null
           }
@@ -35,6 +42,13 @@ const AuthBar = ({ user, mobile }) => {
 
   return (
     <ul className="right hide-on-med-and-down">
+     <li>
+        {
+          name ?
+            <Link to="/dashboard">Decks</Link> :
+            null
+        }
+      </li>
       <li>
         {
           name ?
